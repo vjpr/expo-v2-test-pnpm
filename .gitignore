@@ -6,5 +6,7 @@ npm-debug.*
 *.key
 *.mobileprovision
 
+# vjpr
 .vjpr/
 .archive/
+*.log

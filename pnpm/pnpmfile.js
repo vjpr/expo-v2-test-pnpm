@@ -34,7 +34,7 @@ function readPackage(pkg, {log}) {
   if (pkg.dependencies && Object.keys(pkg.dependencies).includes('metro')) {
     // NOTE: Git deps can't be used because its a monorepo.
     //   'github:vjpr/metro#fe51dd0f6a2bb08ce07043edf2ffb935033f9ddc'
-    pkg.dependencies['metro'] = 'npm:metro-pnpm@0.45.6-vjpr.1'
+    pkg.dependencies['metro'] = 'npm:metro-pnpm@0.45.6-vjpr.2'
   }
 
   // ---------------------
