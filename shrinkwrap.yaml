@@ -8,7 +8,7 @@ dependencies:
   fbjs: 1.0.0
   find-cache-dir: 2.0.0
   left-pad: 1.3.0
-  metro: /metro-pnpm/0.45.6-vjpr.3
+  metro: 0.45.6
   metro-cache: 0.50.0
   metro-config: 0.45.6
   metro-react-native-babel-preset: 0.49.2
@@ -3854,7 +3854,7 @@ packages:
   /metro-config/0.45.6:
     dependencies:
       cosmiconfig: 5.0.7
-      metro: /metro-pnpm/0.45.6-vjpr.3
+      metro: 0.45.6
       metro-cache: 0.45.6
       metro-core: 0.45.6
     dev: false
@@ -3888,61 +3888,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-l+lZ7Gg6CN9XddgmwAbo7zOLT2QB9a6VALXLzmvr6gB1mc6SBZwtAh+hARvdymtcr1CgbaWADZPAA+W3oQZH4g==
-  /metro-pnpm/0.45.6-vjpr.3:
-    dependencies:
-      '@babel/core': 7.2.0
-      '@babel/generator': 7.2.0
-      '@babel/parser': 7.2.0
-      '@babel/plugin-external-helpers': /@babel/plugin-external-helpers/7.2.0/@babel!core@7.2.0
-      '@babel/template': 7.1.2
-      '@babel/traverse': 7.1.6
-      '@babel/types': 7.2.0
-      absolute-path: 0.0.0
-      async: 2.6.1
-      babel-preset-fbjs: 2.3.0
-      chalk: 1.1.3
-      concat-stream: 1.6.2
-      connect: 3.6.6
-      debug: 2.6.9
-      denodeify: 1.2.1
-      eventemitter3: 3.1.0
-      fbjs: 0.8.17
-      fs-extra: 1.0.0
-      graceful-fs: 4.1.15
-      image-size: 0.6.3
-      jest-docblock: 23.2.0
-      jest-haste-map: 23.5.0
-      jest-worker: 23.2.0
-      json-stable-stringify: 1.0.1
-      lodash.throttle: 4.1.1
-      merge-stream: 1.0.1
-      metro-cache: 0.45.6
-      metro-config: 0.45.6
-      metro-core: 0.45.6
-      metro-minify-uglify: 0.45.6
-      metro-react-native-babel-preset: /metro-react-native-babel-preset/0.45.6/@babel!core@7.2.0
-      metro-resolver: 0.45.6
-      metro-source-map: 0.45.6
-      mime-types: 2.1.11
-      mkdirp: 0.5.1
-      node-fetch: 2.3.0
-      nullthrows: 1.1.1
-      react-transform-hmr: 1.0.4
-      resolve: 1.8.1
-      rimraf: 2.6.2
-      serialize-error: 2.1.0
-      source-map: 0.5.7
-      temp: 0.8.3
-      throat: 4.1.0
-      wordwrap: 1.0.0
-      write-file-atomic: 1.3.4
-      ws: 1.1.5
-      xpipe: 1.0.5
-      yargs: 9.0.1
-    dev: false
-    hasBin: true
-    resolution:
-      integrity: sha512-S4zxKE7pu0e+/9vj3MVI4PfnYf9Vnkethf6H5ovV8nIXOUyGwrWwPnSoKB/KkJJN/mNFIiZbkKrGaJEdP48+cA==
   /metro-react-native-babel-preset/0.45.6/@babel!core@7.2.0:
     dependencies:
       '@babel/plugin-proposal-class-properties': /@babel/plugin-proposal-class-properties/7.2.1/@babel!core@7.2.0
@@ -4042,6 +3987,61 @@ packages:
     dev: false
     resolution:
       integrity: sha512-FBubSEEitGrvUeuCPVwXTJX7Y1WjFhsUHickqQE+mXplOgREyeZ7o80ffqEWitfsMUQN9385LxIPmAdPzQXLsQ==
+  /metro/0.45.6:
+    dependencies:
+      '@babel/core': 7.2.0
+      '@babel/generator': 7.2.0
+      '@babel/parser': 7.2.0
+      '@babel/plugin-external-helpers': /@babel/plugin-external-helpers/7.2.0/@babel!core@7.2.0
+      '@babel/template': 7.1.2
+      '@babel/traverse': 7.1.6
+      '@babel/types': 7.2.0
+      absolute-path: 0.0.0
+      async: 2.6.1
+      babel-preset-fbjs: 2.3.0
+      chalk: 1.1.3
+      concat-stream: 1.6.2
+      connect: 3.6.6
+      debug: 2.6.9
+      denodeify: 1.2.1
+      eventemitter3: 3.1.0
+      fbjs: 0.8.17
+      fs-extra: 1.0.0
+      graceful-fs: 4.1.15
+      image-size: 0.6.3
+      jest-docblock: 23.2.0
+      jest-haste-map: 23.5.0
+      jest-worker: 23.2.0
+      json-stable-stringify: 1.0.1
+      lodash.throttle: 4.1.1
+      merge-stream: 1.0.1
+      metro-cache: 0.45.6
+      metro-config: 0.45.6
+      metro-core: 0.45.6
+      metro-minify-uglify: 0.45.6
+      metro-react-native-babel-preset: /metro-react-native-babel-preset/0.45.6/@babel!core@7.2.0
+      metro-resolver: 0.45.6
+      metro-source-map: 0.45.6
+      mime-types: 2.1.11
+      mkdirp: 0.5.1
+      node-fetch: 2.3.0
+      nullthrows: 1.1.1
+      react-transform-hmr: 1.0.4
+      resolve: 1.8.1
+      rimraf: 2.6.2
+      serialize-error: 2.1.0
+      source-map: 0.5.7
+      temp: 0.8.3
+      throat: 4.1.0
+      wordwrap: 1.0.0
+      write-file-atomic: 1.3.4
+      ws: 1.1.5
+      xpipe: 1.0.5
+      yargs: 9.0.1
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-+RinU6Qcea/zX9xxfrgmeFBwJ3tsdgLyBJm4tQOmusU4kE8YEE4LQ3IGG60qk3wzYloflMB/8ilIGG4Z/gz2Ew==
   /micromatch/2.3.11:
     dependencies:
       arr-diff: 2.0.0
@@ -5858,7 +5858,7 @@ packages:
       graceful-fs: 4.1.15
       inquirer: 3.3.0
       lodash: 4.17.11
-      metro: /metro-pnpm/0.45.6-vjpr.3
+      metro: 0.45.6
       metro-babel-register: 0.45.6
       metro-core: 0.45.6
       metro-memory-fs: 0.45.6
@@ -5914,7 +5914,7 @@ specifiers:
   fbjs: ^1.0.0
   find-cache-dir: ^2.0.0
   left-pad: ^1.3.0
-  metro: 'npm:metro-pnpm@0.45.6-vjpr.3'
+  metro: 0.45.6
   metro-cache: ^0.50.0
   metro-config: 0.45.6
   metro-react-native-babel-preset: ^0.49.2
